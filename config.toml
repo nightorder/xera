@@ -1,0 +1,32 @@
+[authorization]
+api_id = 12996092
+api_hash = "48933416d82ff4bb618591a9031d10a3"
+
+[raid]
+message = "Your message here!"
+batch_size = 50
+delay = 0.001
+
+[avatar]
+concurrency = 20
+upload_timeout = 30
+image_quality = 80
+max_size_px = 1024
+
+[poll]
+vote_delay = 0.5
+auto_join = true
+
+[system]
+language = "en"
+lazy_load = true
+max_threads = 100
+
+[logging]
+level = "INFO"
+colored_output = true
+file_output = true
+file_path = "logs/raid.log"
+
+[theme]
+banner_text = "XERA CORE v2.0"
